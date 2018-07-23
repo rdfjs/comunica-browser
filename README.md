@@ -37,10 +37,10 @@ Source example  (`actor-init-sparql-rdfjs` at latest version): http://rdf.js.org
 
 ## Example usage
 
-The following example executes a simple SPARQL query using `actor-init-sparql-rdfjs` at version 1.x.x.
+The following example executes a simple SPARQL query using `actor-init-sparql` at version 1.x.x.
 
 ```html
-<script src="http://rdf.js.org/comunica-browser/versions/1/packages/actor-init-sparql-rdfjs/comunica-browser.js"></script>
+<script src="http://rdf.js.org/comunica-browser/versions/1/packages/actor-init-sparql/comunica-browser.js"></script>
 <script language="JavaScript">
   Comunica.newEngine().query('SELECT * { ?s ?p <http://dbpedia.org/resource/Belgium>. ?s ?p ?o } LIMIT 100',
     { sources: [ { type: 'hypermedia', value: 'http://fragments.dbpedia.org/2015/en' } ] })
