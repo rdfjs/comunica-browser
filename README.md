@@ -21,7 +21,7 @@ Use this if you want to stay up-to-date with the latest fixes, but do not want a
 
 Source template: `http://rdf.js.org/comunica-browser/versions/[major-version]/engines/[package]/comunica-browser.js`
 
-Source example (`query-sparql-rdfjs` at version `2.x.x`): http://rdf.js.org/comunica-browser/versions/2/engines/query-sparql-rdfjs/comunica-browser.js
+Source example (`query-sparql-rdfjs` at version `2.x.x`): http://rdf.js.org/comunica-browser/versions/v2/engines/query-sparql-rdfjs/comunica-browser.js
 
 #### Specific release
 
@@ -30,7 +30,7 @@ Use this if you want certainty that your script usage will not break.
 
 Source template: `http://rdf.js.org/comunica-browser/versions/[version]/engines/[package]/comunica-browser.js`
 
-Source example (`query-sparql-rdfjs` at version `2.0.3`): http://rdf.js.org/comunica-browser/versions/2.0.3/engines/query-sparql-rdfjs/comunica-browser.js
+Source example (`query-sparql-rdfjs` at version `2.2.1`): http://rdf.js.org/comunica-browser/versions/v2.2.1/engines/query-sparql-rdfjs/comunica-browser.js
 
 #### Latest build
 The latest version of Comunica engines, updated with every commit to the [Comunica repo](https://github.com/comunica/comunica/).
@@ -45,7 +45,7 @@ Source example  (`query-sparql-rdfjs` at latest version): http://rdf.js.org/comu
 The following example executes a simple SPARQL query using `query-sparql` at version 2.x.x.
 
 ```html
-<script src="http://rdf.js.org/comunica-browser/versions/2/engines/query-sparql/comunica-browser.js"></script>
+<script src="http://rdf.js.org/comunica-browser/versions/v2/engines/query-sparql/comunica-browser.js"></script>
 <script language="JavaScript">
   (new Comunica.QueryEngine()).queryBindings('SELECT * { ?s ?p <http://dbpedia.org/resource/Belgium>. ?s ?p ?o } LIMIT 100',
     { sources: [ 'http://fragments.dbpedia.org/2015/en' ] })
